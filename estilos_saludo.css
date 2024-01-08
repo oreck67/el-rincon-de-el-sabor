@@ -1,0 +1,60 @@
+/* styles_saludo.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #ffffff;
+}
+
+header {
+    background-color: #6c4836;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    max-width: 20%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px; /* Espacio entre imágenes (ajustable) */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #6c4836;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#mensaje{
+    background-color: #d7bb83;
+}
+
+/* Agrega estilos adicionales según sea necesario */
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

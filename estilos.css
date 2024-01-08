@@ -1,0 +1,301 @@
+
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1e5; /* Un tono cálido */
+    color: #6c4836; /* Marrón oscuro para el texto */
+}
+
+
+header {
+    background-size: cover;
+    color: #000000;
+    text-align: center;
+   padding: 0%;    
+}
+
+.headerh1{
+    color: #000000;
+}
+
+#logo {
+    width: 80px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    margin-top: 0px; /* Ajusta la separación superior según tus necesidades */
+    margin-right: 1px; /* Ajusta la separación derecha según tus necesidades */
+}
+
+#menu{
+    text-align: center;
+}
+
+nav {
+    background-color: #8a614c; /* Marrón medio */
+    padding: 1em;
+    text-align: center;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+#menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 1em;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #6c4836; /* Marrón oscuro */
+}
+
+img {
+    display: block;
+    max-width: 20%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px; /* Espacio entre imágenes (ajustable) */
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+    
+
+    footer {
+        background-color: #b47a5f;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        position:static;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+/* Estilo para el formulario */
+#contactForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #c77661;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color:#c77661;
+}
+/* Estilo para el mensaje de confirmación */
+#confirmationMessage {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d4edda;
+    color: #155724;
+    display: none; /* Ocultar inicialmente */
+}
+
+
+    #menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .category {
+        flex: 1;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .category ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .category h3 {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .category img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    h1 {
+        color: #fcf9f8; /* Marrón oscuro */
+        text-align: center;
+    }
+    
+.evento {
+    background-color: #ecf0f1; /* Color de fondo del contenedor del evento */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease-in-out; /* Efecto de transición suave */
+}
+
+.evento:hover {
+    transform: scale(1.05); /* Escala ligeramente en el hover */
+}
+
+
+#descripcion {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #c77661;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+
+
+
+.imagen {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las imágenes en el menú */
+#menu img {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto de escala al pasar el ratón sobre la imagen */
+#menu img:hover {
+    transform: scale(1.2);
+}
+
+
+
+#promociones{
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilos para los enlaces de redes sociales en el footer */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-links a:hover {
+    color: #be651b; /* Cambiar a tu color de elección al pasar el ratón */
+}
+
+
+.imagenPersonalizada {
+    width: 300px; /* ajusta el ancho según tus necesidades */
+    height: auto; /* mantiene la proporción original */
+    size-adjust: .1px;
+    /* o puedes establecer un valor específico para la altura si es necesario */
+}
+
+ /* Agrega un estilo base para las promociones */
+ .promotion {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; /* Agrega una transición para el efecto */
+}
+
+/* Agrega el efecto de aumento al pasar el mouse */
+.promotion:hover {
+    transform: scale(1.1);
+}
+
+#logo2{
+width: 150px;
+height: 45px;
+}
+
+#instagram{
+    width: 150px;
+    height: 45px;
+}
+
+#facebook{
+     width: 150px;
+    height: 45px;
+}
